@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+}
+
+.green{ 
+    background-color:green; 
+    float:left;
+    width:100px;
+    height:200px;
+} 
+
+.white{ 
+    float:left;
+    width:100px;
+    height:200px;
+} 
+.red{ 
+    background-color:red; 
+    float:left;
+    width:100px;
+    height:200px;
+} 
+.shield {
+    background-color:black; 
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    top:75px;
+    left:20px;
+    position:relative;
+}
