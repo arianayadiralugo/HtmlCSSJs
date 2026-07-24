@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <div id="uno"></div>
+        <div id="dos"></div>
+        <script>
+            let sentence = "Yary is a person";
+            document.getElementById("uno").innerHTML = sentence;
+            let array = sentence.split(" ");
+            let toReplace = array.indexOf("Yary");
+            array[toReplace] = "Chester";
+            let toReplace2 = array.indexOf("person");
+            array[toReplace2] = "dog";
+            document.getElementById("dos").innerHTML = array.join(" ");
+        </script>
+    </body>
+</html>
