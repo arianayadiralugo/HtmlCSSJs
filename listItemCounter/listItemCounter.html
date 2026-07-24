@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <div id="hola">
+        <div>hola</div>
+        <ol id="list">
+            <li>Apple</li>
+            <li>Pinapple</li>
+            <li>Banana</li>
+        </ol>
+        </div>
+    </body>
+    <script>
+        const el = document.getElementById('hola');
+        console.log('Direct children:', el.children.length);
+        console.log('All descendants:', el.querySelectorAll('*').length);
+    </script>
+</html>
